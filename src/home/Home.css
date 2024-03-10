@@ -1,0 +1,42 @@
+.home1{
+    height: 100vh;
+    background-image: url("../../public/sunny.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 130px;
+    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+p,h2{
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+.home select{
+    margin: 50px 0;
+    height: 50px;
+    width: 500px;
+    text-align: center;
+    font-size: larger;
+    outline: none;
+}
+
+
+@media screen and (max-width:768px) {
+    .home select{
+        width: 300px;
+    }
+   
+}
